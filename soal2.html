@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div id="isi" class="isi"></div>
+    <div class="container">
+        <div id="Siska"></div>
+    </div>
+
+
+    <script>
+        const content = document.getElementById("isi");
+        
+        const Biodata  = document.createElement("h1");
+        Biodata.textContent = "Selamat Ujian Framework Js";
+        content.appendChild(Biodata);
+
+        const nama = document.createElement("p");
+        nama.textContent = "nama : Siska Yuni Rusniatun";
+        content.appendChild(nama);
+
+        const nim = document.createElement("p");
+        nim.textContent = "nim : SI17200046";
+        content.appendChild(nim);
+
+        const jurusan = document.createElement("p");
+        jurusan.textContent = "jurusan : SISTEM INFORMASI";
+        content.appendChild(jurusan);
+
+        const tanggal_ujian = document.createElement("p");
+        tanggal_ujian.textContent = "tanggal_ujian : 11 november 2022";
+        content.appendChild(tanggal_ujian);
+
+        var myImage = new Image(150,150);
+        myImage.src = 'Siska.jpg';
+        x = document.getElementById("Siska");
+        x.appendChild(myImage);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
